@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+*.db
+*.db-journal
+uploads/products/*
+uploads/variations/*
+!uploads/products/.gitkeep
+!uploads/variations/.gitkeep
+bun.lock
+data/*.db
+data/*.db-journal
