@@ -1,0 +1,17 @@
+{
+  "name": "@albain/backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "elysia": "latest",
+    "@elysiajs/cors": "latest",
+    "@elysiajs/static": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
